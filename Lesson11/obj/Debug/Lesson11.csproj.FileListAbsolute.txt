@@ -1,0 +1,7 @@
+C:\Users\D.Putrya\source\repos\OOPProject\Lesson11\bin\Debug\Lesson11.exe.config
+C:\Users\D.Putrya\source\repos\OOPProject\Lesson11\bin\Debug\Lesson11.exe
+C:\Users\D.Putrya\source\repos\OOPProject\Lesson11\bin\Debug\Lesson11.pdb
+C:\Users\D.Putrya\source\repos\OOPProject\Lesson11\obj\Debug\Lesson11.csprojAssemblyReference.cache
+C:\Users\D.Putrya\source\repos\OOPProject\Lesson11\obj\Debug\Lesson11.csproj.CoreCompileInputs.cache
+C:\Users\D.Putrya\source\repos\OOPProject\Lesson11\obj\Debug\Lesson11.exe
+C:\Users\D.Putrya\source\repos\OOPProject\Lesson11\obj\Debug\Lesson11.pdb
