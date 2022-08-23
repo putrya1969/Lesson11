@@ -9,8 +9,8 @@ namespace Lesson11
 {
     internal class FileHelper
     {
-        internal string FileFullPath { get; set; }
-        internal string[] FileContent { get; set; }
+        public string FileFullPath { get; private set; }
+        public string[] FileContent { get; private set; }
         public FileHelper(string txtFile)
         {
             if (!FileExist(txtFile))
