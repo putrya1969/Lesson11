@@ -20,7 +20,7 @@ namespace Lesson11
         }
         internal List<Book> GetBooksByGenre(string genre)
         {
-            return Library.Books.Where(b => b.Genre == genre).ToList();
+            return Library.Books.Where(b => b.Genre.ToLower() == genre).ToList();
         }
 
         internal void PrintOrder(List<Book> books)
@@ -63,8 +63,8 @@ namespace Lesson11
                 case "g":
                     {
                         Console.WriteLine("Enter genre:");
-                        var genre = Console.ReadLine();
-                        if (!GetGenres().Contains(genre))
+                        var genre = Console.ReadLine().ToLower();
+                        if (!GetGenres().Select(x=> x.ToLower()).Contains(genre))
                             Console.WriteLine("Enter invalid genre");
                         PrintOrder(GetBooksByGenre(genre));
                         break;
